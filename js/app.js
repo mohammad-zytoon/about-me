@@ -38,22 +38,24 @@ function questionTwo() {
         alert('we are in the different in opp');
     }
 }
-let horseRasident = prompt('did you think i have ever raised horses?');
 
-horseRasident = horseRasident.toUpperCase();
+function questionThree() {
+    let horseRasident = prompt('did you think i have ever raised horses?');
 
-if (horseRasident == 'YES' || horseRasident == 'Y') {
+    horseRasident = horseRasident.toUpperCase();
 
-    //console.log('the answer:' + horseRasident);
-    score++;
-    alert('you are right i am a lucky person');
+    if (horseRasident == 'YES' || horseRasident == 'Y') {
 
-} else if (horseRasident == 'NO' || horseRasident == 'N') {
+        //console.log('the answer:' + horseRasident);
+        score++;
+        alert('you are right i am a lucky person');
 
-    //console.log('the answer:' + horseRasident);
-    alert('no i did you have to buy one');
+    } else if (horseRasident == 'NO' || horseRasident == 'N') {
+
+        //console.log('the answer:' + horseRasident);
+        alert('no i did you have to buy one');
+    }
 }
-
 
 let raider = prompt('do you think i have ever ride a horse?');
 
