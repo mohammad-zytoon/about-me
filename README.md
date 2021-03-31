@@ -59,8 +59,32 @@ ________________________________________________________________________________
  how long did you think it would take you to complete this assignment?
  
   It tooks about 5 hours, i thinked it will take 3 hours.
+________________________________________________________________________________________________________
 
+# LAB-04
 
+### Project Name: ABOUT-ME (pair programming) 
 
+ Today we work as group me and my college saeed we work on the option pair programming at the first part i was the driver and he is the navigator so i edited his code and at the second part he was the driver , me tha nav and he edited my code, the edit process was by putting the questions in a functions and call it at the end of the code.
   
+  **Author**: Mohammad Zytoon.
 
+**Links and Resources:**
+
+I was Navigator on:[Pair-repo-me-nav](https://github.com/mohammad-zytoon/about-me/pull/1)
+
+I was Driver on:[pair-repo-me-driver](https://github.com/awwadsaeed/about_me/pull/1)
+
+
+
+### **Reflections and Comments:**
+
+-How did the pair programming process go in general?  it was very interesting and more easier and more interactive.
+Did you learn anything from your partner? If so, what? yes i did, i have learned the process of pair programming.
+
+-What was the most difficult part of the assignment today? it wasn't really hard but you can say the paring process instructions is the more difficult.  
+
+-What was the easiest part of the assignment today? the code changes.
+Anything else you’d like to share? pair programming very nice. 
+
+-How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment? It takes (1:45 hour ) i was think it will take 4 hours at least.
