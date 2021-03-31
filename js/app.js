@@ -75,24 +75,25 @@ function questionFour() {
     }
 }
 
-let feedback = prompt('is our web nice?');
+function questionFive() {
+    let feedback = prompt('is our web nice?');
 
-feedback = feedback.toUpperCase();
+    feedback = feedback.toUpperCase();
 
-if (feedback == 'YES' || feedback == 'Y') {
+    if (feedback == 'YES' || feedback == 'Y') {
 
-    //console.log('the answer:' + feedback);
-    score++;
-    alert('We are glad you shared this answer');
+        //console.log('the answer:' + feedback);
+        score++;
+        alert('We are glad you shared this answer');
 
-} else if (feedback == 'NO' || feedback == 'N') {
+    } else if (feedback == 'NO' || feedback == 'N') {
 
-    // console.log('the answer:' + raider);
-    alert('If you have any comment, please provide it to us');
+        // console.log('the answer:' + raider);
+        alert('If you have any comment, please provide it to us');
 
-    alert(' Than you  ' + userName + 'for visiting our page');
+        alert(' Than you  ' + userName + 'for visiting our page');
+    }
 }
-
 
 /*
 for (let i = 0; i < 4; i++) {
