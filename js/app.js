@@ -21,23 +21,23 @@ function questionOne() {
     }
 }
 
+function questionTwo() {
+    let horseType = prompt('are you think that i thouht arabian horse is the pretiest type?');
 
-let horseType = prompt('are you think that i thouht arabian horse is the pretiest type?');
+    horseType = horseType.toUpperCase();
 
-horseType = horseType.toUpperCase();
+    if (horseType == 'YES' || horseType == 'Y') {
 
-if (horseType == 'YES' || horseType == 'Y') {
+        console.log('the answer:' + horseType);
+        score++;
+        alert('we are in the same opp');
 
-    console.log('the answer:' + horseType);
-    score++;
-    alert('we are in the same opp');
+    } else if (horseType == 'NO' || horseType == 'N') {
 
-} else if (horseType == 'NO' || horseType == 'N') {
-
-    console.log('the answer:' + horseType);
-    alert('we are in the different in opp');
+        console.log('the answer:' + horseType);
+        alert('we are in the different in opp');
+    }
 }
-
 let horseRasident = prompt('did you think i have ever raised horses?');
 
 horseRasident = horseRasident.toUpperCase();
