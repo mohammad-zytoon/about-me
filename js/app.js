@@ -177,7 +177,13 @@ function questionSeven() {
 
     }
 }
-
+questionOne();
+questionTwo();
+questionThree();
+questionFour();
+questionFive();
+questionSix();
+questionSeven();
 alert('well done You have a (' + score + ') correct answer please visit our web always thx');
 
 
