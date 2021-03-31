@@ -146,34 +146,36 @@ function questionSix() {
 }
 
 
-let horsesColor = ['black', 'brown', 'white'];
+function questionSeven() {
+    let horsesColor = ['black', 'brown', 'white'];
 
-for (let i = 0; i < 6; i++) {
-
-
-    let clientChoice = prompt('please guess one of the best three colors for horses from this colors\n(red, green, white, black, brown, yellow, grey)?');
-    clientChoice = clientChoice.toLowerCase();
+    for (let i = 0; i < 6; i++) {
 
 
-    for (let j = 0; j < horsesColor.length; j++) {
-        //console.log(j);
+        let clientChoice = prompt('please guess one of the best three colors for horses from this colors\n(red, green, white, black, brown, yellow, grey)?');
+        clientChoice = clientChoice.toLowerCase();
 
-        if (horsesColor[j] === clientChoice) {
-            score++;
-            alert('good answer one of the best');
-            i = 7;
-            break;
+
+        for (let j = 0; j < horsesColor.length; j++) {
+            //console.log(j);
+
+            if (horsesColor[j] === clientChoice) {
+                score++;
+                alert('good answer one of the best');
+                i = 7;
+                break;
+            }
         }
+
+
+
+        if (i == 5) {
+
+            alert('Sorry you finish your attempt, the color choices are:\n Black, brown and White');
+
+        }
+
     }
-
-
-
-    if (i == 5) {
-
-        alert('Sorry you finish your attempt, the color choices are:\n Black, brown and White');
-
-    }
-
 }
 
 alert('well done You have a (' + score + ') correct answer please visit our web always thx');
