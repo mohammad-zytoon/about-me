@@ -57,22 +57,23 @@ function questionThree() {
     }
 }
 
-let raider = prompt('do you think i have ever ride a horse?');
+function questionFour() {
+    let raider = prompt('do you think i have ever ride a horse?');
 
-raider = raider.toUpperCase();
+    raider = raider.toUpperCase();
 
-if (raider == 'YES' || raider == 'Y') {
+    if (raider == 'YES' || raider == 'Y') {
 
-    //console.log('the answer:' + raider);
-    score++;
-    alert('i am sure its a nice experiment');
+        //console.log('the answer:' + raider);
+        score++;
+        alert('i am sure its a nice experiment');
 
-} else if (raider == 'NO' || raider == 'N') {
+    } else if (raider == 'NO' || raider == 'N') {
 
-    // console.log('the answer:' + raider);
-    alert('you have to try it');
+        // console.log('the answer:' + raider);
+        alert('you have to try it');
+    }
 }
-
 
 let feedback = prompt('is our web nice?');
 
