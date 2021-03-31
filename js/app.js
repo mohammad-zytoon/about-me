@@ -119,30 +119,31 @@ for (let i = 0; i < 4; i++) {
         
     }*/
 
-let i = 0;
-do {
-    let numberGess = prompt('please guess the right number between (1-7)?');
+function questionSix() {
+    let i = 0;
+    do {
+        let numberGess = prompt('please guess the right number between (1-7)?');
 
-    if (numberGess == 4) {
-        score++;
-        alert('you are good in guessing you choose the rghit number');
+        if (numberGess == 4) {
+            score++;
+            alert('you are good in guessing you choose the rghit number');
 
-        break;
+            break;
 
-    } else if (numberGess > 4) {
-        alert('Too High');
+        } else if (numberGess > 4) {
+            alert('Too High');
 
-    } else if (numberGess < 4) {
-        alert('Too Low');
-    }
+        } else if (numberGess < 4) {
+            alert('Too Low');
+        }
 
-    if (i == 3) {
-        alert('Sorry you exhausted all attempts the true vlue is: 4');
-    }
-    i++;
-} while (i < 4);
+        if (i == 3) {
+            alert('Sorry you exhausted all attempts the true vlue is: 4');
+        }
+        i++;
+    } while (i < 4);
 
-
+}
 
 
 let horsesColor = ['black', 'brown', 'white'];
