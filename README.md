@@ -88,3 +88,28 @@ Did you learn anything from your partner? If so, what? yes i did, i have learned
 Anything else you’d like to share? pair programming very nice. 
 
 -How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment? It takes (1:45 hour ) i was think it will take 4 hours at least.
+
+________________________________________________________________________________________________________________________
+
+# LAB-05b
+
+### Project Name: Finish and deploy your About Me
+
+In this lab, we put the final touches on the code and on the web form and formatting it so that it is reasonable and acceptable to the user, so I deleted the extra things from the code and formatted it and formatted the text on the web.
+
+**Author**: Mohammad Zytoon.
+
+**Links and Resources:**
+
+[Github-home](https://github.com/mohammad-zytoon/)
+[live-URL]()
+
+### **Reflections and Comments:**
+
+-How did the pair programming process go in general?  Things went well.
+
+-What was the most difficult part of the assignment today? it wasn't really hard.
+
+-What was the easiest part of the assignment today? All of it was good.
+
+-How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment? It takes (30 minutes ) i was think it will take 1:30 hours at least.

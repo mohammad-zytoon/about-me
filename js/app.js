@@ -46,13 +46,13 @@ function questionThree() {
 
     if (horseRasident == 'YES' || horseRasident == 'Y') {
 
-        //console.log('the answer:' + horseRasident);
+
         score++;
         alert('you are right i am a lucky person');
 
     } else if (horseRasident == 'NO' || horseRasident == 'N') {
 
-        //console.log('the answer:' + horseRasident);
+
         alert('no i did you have to buy one');
     }
 }
@@ -64,13 +64,13 @@ function questionFour() {
 
     if (raider == 'YES' || raider == 'Y') {
 
-        //console.log('the answer:' + raider);
+
         score++;
         alert('i am sure its a nice experiment');
 
     } else if (raider == 'NO' || raider == 'N') {
 
-        // console.log('the answer:' + raider);
+
         alert('you have to try it');
     }
 }
@@ -82,42 +82,19 @@ function questionFive() {
 
     if (feedback == 'YES' || feedback == 'Y') {
 
-        //console.log('the answer:' + feedback);
+
         score++;
         alert('We are glad you shared this answer');
 
     } else if (feedback == 'NO' || feedback == 'N') {
 
-        // console.log('the answer:' + raider);
         alert('If you have any comment, please provide it to us');
 
         alert(' Than you  ' + userName + 'for visiting our page');
     }
 }
 
-/*
-for (let i = 0; i < 4; i++) {
 
-    let numberGess= prompt('please guess the right number between (1-7)?');
-   
-    if (numberGess==4) {
-
-        alert('you are good in guessing you choose the rghit number');
-        
-       // break;
-   
-    } else if (numberGess>4){
-        alert('Too High');    
-    
-    }else if (numberGess<4){
-        alert('Too Low');
-    }
-
-    if(i=4){
-        alert('Sorry you exhausted all attempts the true vlue is: 4');
-    }
-        
-    }*/
 
 function questionSix() {
     let i = 0;
